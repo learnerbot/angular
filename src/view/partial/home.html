@@ -1,0 +1,23 @@
+<div>
+    <h1>Home</h1>
+    <div class="alert alert-danger visually-hidden content-error">Failed to load content!</div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            Loading content with an ajax call
+        </div>
+        <div class="panel-body">
+            <h4 class="text-center content-loading"><span class="glyphicon glyphicon-hourglass"></span> Loading...</h4>
+            <div class="text-center content" data-render-content></div>
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            Iterating through a list of items
+        </div>
+        <div class="panel-body">
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="contentItem in config.contentList">{{contentItem}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

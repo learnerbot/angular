@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class="no-js" ng-controller="BasePageCtrl">
+<head>
+    <title ng-bind="'Angular Example - ' + title">Angular Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/picture/learnerbot_icon_16x16.ico" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="src/css/main.css" />
+</head>
+<body>
+
+<script type="text/javascript" src="libs/requirejs/require.js" data-main="src/script/requireConfig.js"></script>
+
+<div ng-include="'src/view/template/header.html'" ng-controller="HeaderHelperCtrl" class="main-container"></div>
+<div ng-view class="main-container"></div>
+<div ng-include="'src/view/template/footer.html'" ng-controller="FooterHelperCtrl" class="main-container"></div>
+
+</body>
+</html>
