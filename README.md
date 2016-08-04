@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple **AngularJS Example** to understand the basics of *AngularJS*.
+This is a simple example to understand the basics of *AngularJS*.
 
 ## Dependencies
 
